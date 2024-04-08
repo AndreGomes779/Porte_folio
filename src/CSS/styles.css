@@ -28,15 +28,12 @@ body {
 	line-height: 55px;
 	font-family: "Raleway", sans-serif;
 	transition: 0.2s;
-	background: radial-gradient(circle, #8a35c8, #18c063, #00eea2);
 }
 
 .cabecalho a:hover .logo {
-	color: #1f0c31;
-	border: 2px solid #ece5f1;
-}
-.logo{
-	
+	background: radial-gradient(circle, #8a35c8, #18c063, #00eea2);
+	background-size: 200% 200%;
+	animation: gradient-animation 5s ease infinite;
 }
 
 .cabecalho .menu li a {
